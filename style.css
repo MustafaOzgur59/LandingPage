@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto" sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  font-size: 18px;
+}
+.header ul li a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  background-color: #1f2937;
+}
+
+.container2 {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 100px;
+  gap: 50px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.hero > .main_text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero > .secondary_text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  align-self: flex-start;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: transparent;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information > p {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 100px;
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  flex: 0;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.quoted {
+  align-self: flex-end;
+  padding-right: 100px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quoteText {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.footer {
+  display: flex;
+  width: 70%;
+  height: 100%px;
+  padding: 40px;
+  justify-content: space-around;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+}
+
+#footerHeader {
+  font-size: 24px;
+  margin: 0;
+}
+#footerText {
+  margin: 0;
+}
+
+.footer button {
+  border-color: white;
+  align-self: center;
+}
